@@ -17,6 +17,10 @@
     width: 100vw;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     font-weight: 750;
     text-decoration: inherit;

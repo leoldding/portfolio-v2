@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "name": "Certified Kubernetes Administrator",
+        "short": "CKA",
+        "company": "Linux Foundation",
+        "issued": "Jul 2024",
+        "link": "https://www.credly.com/badges/14e2c941-d915-4f5c-ba05-050fc61fb3de/public_url" },
+    {
+        "id": 2,
+        "name": "Certified Developer - Associate",
+        "short": "CDA",
+        "company": "AWS",
+        "issued": "Apr 2024",
+        "link": "https://www.credly.com/badges/f5106664-7044-499d-8528-4fa3320487cf/public_url"
+    },
+    {
+        "id": 3,
+        "name": "Certified Cloud Practitioner",
+        "short": "CCP",
+        "company": "AWS",
+        "issued": "Feb 2024",
+        "link": "https://www.credly.com/badges/bdef6a22-6921-4637-a782-3e530913a405/public_url"
+    }
+]

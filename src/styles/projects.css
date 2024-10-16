@@ -30,7 +30,8 @@
     z-index: 0;
 }
 
-.project:hover > .project-shadow {
-    background-color: #ffb35c10;
+@media (min-width: 1024px) {
+    .project:hover>.project-shadow {
+        background-color: #ffb35c10;
+    }
 }
-

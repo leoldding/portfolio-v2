@@ -29,7 +29,7 @@ ul {
     list-style-type: ":) ";
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .main-container {
         width: 75%;
         margin: 0px 15%;

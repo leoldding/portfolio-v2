@@ -26,10 +26,10 @@ a {
     text-decoration: inherit;
 }
 
-
 a, a:visited, a:active {
   color: inherit;
 }
+
 a:hover {
     color: #fdba74;
 }
@@ -44,13 +44,18 @@ body {
 }
 
 h1 {
-    font-size: 1.6em;
+    font-size: 1.8rem;
     line-height: 1.1;
     margin-top: 0;
+    margin-bottom: 2.0rem;
 }
 
 p {
-    margin-top: 0;
+    margin: 0;
+}
+
+section p:not(:last-child) {
+    margin-bottom: 1rem;
 }
 
 button {

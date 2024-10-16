@@ -1,0 +1,36 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 3.0rem;
+}
+
+.projects>button {
+    margin: auto;
+    width: fit-content;
+}
+
+.project {
+    position: relative;
+}
+
+.project-info {
+    position: relative;
+    z-index: 1;
+}
+
+.project-shadow {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    border-radius: 0.5rem;
+    transition: background-color 300ms;
+    inset: -1.25rem;
+    z-index: 0;
+}
+
+.project:hover > .project-shadow {
+    background-color: #ffb35c10;
+}
+

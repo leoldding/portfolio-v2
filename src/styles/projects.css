@@ -30,8 +30,46 @@
     z-index: 0;
 }
 
+.project-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.project-header>h2 {
+    margin-right: 2.0rem;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin-left: auto;
+}
+
+.project-links>div:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.project-links svg {
+    height: 1.25rem;
+    width: 1.25rem;
+    vertical-align: bottom;
+}
+
 @media (min-width: 1024px) {
+    .projects {
+        width: 80%;
+    }
+
     .project:hover>.project-shadow {
         background-color: #ffb35c10;
+    }
+
+    .project-links svg {
+        height: 1.5rem;
+        width: 1.5rem;
     }
 }

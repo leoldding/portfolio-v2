@@ -1,17 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import data from "../data/projects.json";
 import "../styles/projects.css";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects: React.FC = () => {
-    const [showMore, setShowMore] = useState(false);
-    const projectCount = showMore ? 4 : 2;
-    const projects = data.slice(0, projectCount);
-
-    const handleShowProjects = () => {
-        setShowMore(!showMore);
-    }
+    const projects = data.slice(0, 4);
 
     return (
         <section id="projects">
@@ -29,7 +23,7 @@ const Projects: React.FC = () => {
                                 </h2>
                                 <div className="project-links">
                                     <div>
-                                        <Link to={github} target="_blank" rel="noopener noreferrer"><FaGithub  /></Link>
+                                        <Link to={github} target="_blank" rel="noopener noreferrer"><FaGithub /></Link>
                                     </div>
                                     {link && <div>
                                         <Link to={link} target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /></Link>
@@ -39,7 +33,7 @@ const Projects: React.FC = () => {
                             <p>
                                 {description}
                             </p>
-                            <div>
+                            <div className="project-tags">
                                 {technologies && technologies.map(tech => (
                                     <span className="project-tech" key={tech}>{tech} </span>
                                 ))}
@@ -47,8 +41,7 @@ const Projects: React.FC = () => {
                         </div>
                     </div>
                 ))}
-                <button onClick={handleShowProjects}>{showMore ? "Show Less" : "Show More"}</button>
-                <Link to="/archive">View Archive</Link>
+                <Link to="/archive">View Project Archive</Link>
             </div>
         </section>
     );

@@ -6,7 +6,7 @@
         "github": "https://github.com/leoldding/cpf-wl",
         "link": "https://cpf-wl.vercel.app/",
         "year": 2024,
-        "description": "Temp Description"
+        "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Odio velit elementum efficitur odio nullam. Ac proin sodales placerat; non rhoncus ac mollis mi. Curabitur nullam etiam eros ac venenatis sociosqu urna."
     },
     {
         "id": 2,
@@ -14,7 +14,7 @@
         "technologies": ["Go"],
         "github": "https://github.com/leoldding/apptrack",
         "year": 2024,
-        "description": "Temp Description"
+        "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Odio velit elementum efficitur odio nullam. Ac proin sodales placerat; non rhoncus ac mollis mi. Curabitur nullam etiam eros ac venenatis sociosqu urna."
     },
     {
         "id": 3,
@@ -22,7 +22,7 @@
         "technologies": ["fake tech"],
         "github": "https://google.com",
         "year": 2501,
-        "description": "Temp Description"
+        "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Odio velit elementum efficitur odio nullam. Ac proin sodales placerat; non rhoncus ac mollis mi. Curabitur nullam etiam eros ac venenatis sociosqu urna."
     },
     {
         "id": 4,
@@ -30,7 +30,7 @@
         "technologies": ["fake tech"],
         "github": "https://google.com",
         "year": 2501,
-        "description": "Temp Description"
+        "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Odio velit elementum efficitur odio nullam. Ac proin sodales placerat; non rhoncus ac mollis mi. Curabitur nullam etiam eros ac venenatis sociosqu urna."
     },
     {
         "id": 5,
@@ -38,7 +38,7 @@
         "technologies": ["fake tech"],
         "github": "https://google.com",
         "year": 2501,
-        "description": "Temp Description"
+        "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Odio velit elementum efficitur odio nullam. Ac proin sodales placerat; non rhoncus ac mollis mi. Curabitur nullam etiam eros ac venenatis sociosqu urna."
     },
     {
         "id": 6,
@@ -46,6 +46,6 @@
         "technologies": ["fake tech"],
         "github": "https://google.com",
         "year": 2501,
-        "description": "Temp Description"
+        "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Odio velit elementum efficitur odio nullam. Ac proin sodales placerat; non rhoncus ac mollis mi. Curabitur nullam etiam eros ac venenatis sociosqu urna."
     }
 ]

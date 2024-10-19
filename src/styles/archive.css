@@ -1,0 +1,50 @@
+.archive-container {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.archive-header {
+    display: grid;
+    grid-template-columns: 0.25fr 1.25fr 1.25fr 0.50fr 0.50fr;
+    padding: 1.0rem 0px;
+    font-weight: 600;
+}
+
+.archive-header>div {
+    padding: 0px 0.5rem;
+}
+
+.archive-row {
+    display: grid;
+    grid-template-columns: 0.25fr 1.25fr 1.25fr 0.50fr 0.50fr;
+    padding: 0.75rem 0px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-color: #ffedd51a;
+}
+
+.archive-row>div {
+    padding: 0px 0.5rem;
+}
+
+.archive-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
+}
+
+.archive-tech {
+    background-color: #fdba7426;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 25px;
+}
+
+@media (min-width: 1024px) {
+    .archive-container {
+        width: 70%;
+        margin: 0 15%;
+    }
+}

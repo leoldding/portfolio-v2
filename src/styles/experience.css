@@ -1,0 +1,54 @@
+.experiences {
+    display: flex;
+    flex-direction: column;
+    gap: 3.0rem;
+}
+
+.experience {
+    position: relative;
+}
+
+.experience-shadow {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    border-radius: 0.5rem;
+    transition: background-color 300ms;
+    inset: -1.25rem;
+    z-index: 0;
+}
+
+.experience-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.experience-position>h3 {
+    margin-top: 0.25rem;
+}
+
+.experience-info {
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-width: 1024px) {
+    .experiences {
+        width: 95%;
+    }
+
+    .experience:hover>.experience-shadow {
+        background-color: #ffb35c10;
+    }
+
+    .experience-header {
+        flex-direction: row;
+    }
+
+    .experience-position>h3 {
+        margin-top: 0.5rem;
+    }
+}

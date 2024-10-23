@@ -5,14 +5,22 @@
         "company": "NASA SPOCS Initiative",
         "start": "Aug 2020",
         "end": "Dec 2020",
-        "description": "Temp Description"
+        "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Odio velit elementum efficitur odio nullam. Ac proin sodales placerat; non rhoncus ac mollis mi. Curabitur nullam etiam eros ac venenatis sociosqu urna."
     },
     {
         "id": 2,
         "position": "Web Development Intern",
-        "company": "California State University - Los Angeles",
+        "company": "California State University, Los Angeles",
         "start": "Jun 2019",
         "end": "Jul 2019",
-        "description": "Temp Description"
+        "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Odio velit elementum efficitur odio nullam. Ac proin sodales placerat; non rhoncus ac mollis mi. Curabitur nullam etiam eros ac venenatis sociosqu urna."
+    },
+    {
+        "id": 3,
+        "position": "Doer of Things",
+        "company": "A Company",
+        "start": "Sep 1842",
+        "end": "Feb 1985",
+        "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Odio velit elementum efficitur odio nullam. Ac proin sodales placerat; non rhoncus ac mollis mi. Curabitur nullam etiam eros ac venenatis sociosqu urna."
     }
 ]

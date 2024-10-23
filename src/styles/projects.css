@@ -34,6 +34,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 1.5rem;
 }
 
@@ -46,7 +47,6 @@
     flex-direction: row;
     align-items: center;
     justify-items: center;
-    margin-left: auto;
 }
 
 .project-links>div:not(:last-child) {
@@ -76,7 +76,7 @@
 
 @media (min-width: 1024px) {
     .projects {
-        width: 80%;
+        width: 95%;
     }
 
     .project:hover>.project-shadow {

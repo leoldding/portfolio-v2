@@ -1,0 +1,34 @@
+.certifications {
+    display: flex;
+    flex-direction: column;
+    gap: 3.0rem;
+    width: fit-content;
+}
+
+.certification {
+    position: relative;
+}
+
+.certification-shadow {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    border-radius: 0.5rem;
+    transition: background-color 300ms;
+    inset: -1.25rem;
+    z-index: 0;
+}
+
+.certification-info {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+    .certification:hover>.certification-shadow {
+        background-color: #ffb35c10;
+    }
+}

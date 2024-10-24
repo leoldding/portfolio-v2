@@ -2,6 +2,10 @@
     display: none;
 }
 
+.job-title {
+    font-weight: 700;
+}
+
 @media (min-width: 1024px) {
     .hero-nav {
         display: block;

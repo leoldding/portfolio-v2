@@ -11,15 +11,17 @@ const Hero: React.FC = () => {
     };
     return (
         <section id="hero">
-            <h1>
-                <a href="#" onClick={handleScrollToTop}>Leo Ding</a>
-            </h1>
-            <p>
-                Software Engineer
-            </p>
-            <p>
-                I occasionally code.
-            </p>
+            <div className="hero-text">
+                <h1>
+                    <a href="#" onClick={handleScrollToTop}>Leo Ding</a>
+                </h1>
+                <p className="job-title">
+                    Software Engineer
+                </p>
+                <p>
+                    I occasionally code.
+                </p>
+            </div>
             <nav className="hero-nav">
                 <ul>
                     <li>

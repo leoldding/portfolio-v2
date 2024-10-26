@@ -25,24 +25,34 @@ const Hero: React.FC = () => {
             <nav className="hero-nav">
                 <ul>
                     <li>
-                        <div className="bar" />
-                        <a href="#about">About</a>
+                        <a href="#about">
+                            <div className="bar" />
+                            About
+                        </a>
                     </li>
                     <li>
-                        <div className="bar" />
-                        <a href="#experience">Experience</a>
+                        <a href="#experience">
+                            <div className="bar" />
+                            Experience
+                        </a>
                     </li>
                     <li>
-                        <div className="bar" />
-                        <a href="#certifications">Certifications</a>
+                        <a href="#certifications">
+                            <div className="bar" />
+                            Certifications
+                        </a>
                     </li>
                     <li>
-                        <div className="bar" />
-                        <a href="#projects">Projects</a>
+                        <a href="#projects">
+                            <div className="bar" />
+                            Projects
+                        </a>
                     </li>
                     <li>
+                        <a href="/Leo Ding - Resume.pdf" target="_blank">
                         <div className="bar" />
-                        <a href="/Leo Ding - Resume.pdf" target="_blank">Résumé</a>
+                            Résumé
+                        </a>
                     </li>
                 </ul>
             </nav>

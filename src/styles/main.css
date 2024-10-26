@@ -30,20 +30,12 @@ ul {
     padding: 0px;
 }
 
-li {
+li>a {
     display: flex;
     flex-direction: row;
     justify-items: center;
     align-items: center;
     width: fit-content;
-}
-
-li:hover>div {
-    border-color: #fdba74;
-}
-
-li:hover>a {
-    color: #fdba74;
 }
 
 .bar {

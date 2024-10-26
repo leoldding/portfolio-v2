@@ -33,6 +33,10 @@ a:active {
     color: inherit;
 }
 
+a:hover {
+    color: #fdba74;
+}
+
 
 body {
     margin: 0;
@@ -88,10 +92,4 @@ button:hover {
 button:focus,
 button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (min-width: 1024px) {
-    a:hover {
-        color: #fdba74;
-    }
 }

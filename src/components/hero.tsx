@@ -19,24 +19,29 @@ const Hero: React.FC = () => {
                     Software Engineer
                 </p>
                 <p>
-                    I occasionally code.
+                    I develop seamless interfaces, resilient backends, and optimized cloud infrastructure.
                 </p>
             </div>
             <nav className="hero-nav">
                 <ul>
                     <li>
+                        <div className="bar" />
                         <a href="#about">About</a>
                     </li>
                     <li>
+                        <div className="bar" />
                         <a href="#experience">Experience</a>
                     </li>
                     <li>
+                        <div className="bar" />
                         <a href="#certifications">Certifications</a>
                     </li>
                     <li>
+                        <div className="bar" />
                         <a href="#projects">Projects</a>
                     </li>
                     <li>
+                        <div className="bar" />
                         <a href="/Leo Ding - Resume.pdf" target="_blank">Résumé</a>
                     </li>
                 </ul>

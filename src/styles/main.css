@@ -26,7 +26,32 @@ footer {
 }
 
 ul {
-    list-style-type: ":) ";
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    width: fit-content;
+}
+
+li:hover>div {
+    border-color: #fdba74;
+}
+
+li:hover>a {
+    color: #fdba74;
+}
+
+.bar {
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 0px;
+    width: 2rem;
+    margin-right: 0.75rem;
 }
 
 @media (min-width: 1024px) {
@@ -39,7 +64,8 @@ ul {
     .left-container {
         position: sticky;
         padding-top: 5.25rem;
-        width: 40%;
+        padding-right: 10%;
+        width: 30%;
     }
 
     .right-container {

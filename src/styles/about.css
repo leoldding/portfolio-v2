@@ -1,0 +1,5 @@
+@media (min-width: 1024px) {
+    #cube-cursor {
+        cursor: url('/public/rubiks_cube.png'), auto;
+    }
+}

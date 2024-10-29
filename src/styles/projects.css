@@ -59,21 +59,6 @@
     vertical-align: bottom;
 }
 
-.project-tags {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 0.5rem;
-    row-gap: 0.5rem;
-}
-
-.project-tech {
-    background-color: #fdba7426;
-    font-size: 0.8rem;
-    padding: 0.25rem 0.75rem;
-    border-radius: 25px;
-}
-
 @media (min-width: 1024px) {
     .projects {
         width: 95%;
@@ -86,10 +71,5 @@
     .project-links svg {
         height: 1.5rem;
         width: 1.5rem;
-    }
-
-    .project-tech {
-        font-size: 1.0rem;
-        column-gap: 0.75rem;
     }
 }

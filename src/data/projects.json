@@ -1,51 +1,152 @@
 [
     {
-        "id": 1,
+        "id": 10,
         "name": "Weightlifting Leaderboard",
-        "technologies": ["Go", "TypeScript", "React", "CSS", "Vercel"],
+        "technologies": [
+            "Go",
+            "TypeScript",
+            "React",
+            "CSS",
+            "Vercel"
+        ],
         "github": "https://github.com/leoldding/cpf-wl",
         "link": "https://cpf-wl.vercel.app/",
         "year": 2024,
-        "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Odio velit elementum efficitur odio nullam. Ac proin sodales placerat; non rhoncus ac mollis mi. Curabitur nullam etiam eros ac venenatis sociosqu urna."
+        "description": "Created a leaderboard web application that records personal best lifts of athletes from a local weightlifting class. Data manipulation requests are secured and verified through password and JWT authentication.",
+        "showProject": true
     },
     {
-        "id": 2,
+        "id": 9,
         "name": "Job Application Tracker CLI Tool",
-        "technologies": ["Go"],
+        "technologies": [
+            "Go"
+        ],
         "github": "https://github.com/leoldding/apptrack",
+        "link": "",
         "year": 2024,
-        "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Odio velit elementum efficitur odio nullam. Ac proin sodales placerat; non rhoncus ac mollis mi. Curabitur nullam etiam eros ac venenatis sociosqu urna."
+        "description": "Developed a CLI tool to streamline job application management. Automated scraping and parsing for job description data sourced from LinkedIn, Greenhouse, and Lever pages and integrated Notion's API to seamlessly transmit scraped information into database system.",
+        "showProject": true
     },
     {
-        "id": 3,
-        "name": "test project 1",
-        "technologies": ["fake tech"],
-        "github": "https://google.com",
-        "year": 2501,
-        "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Odio velit elementum efficitur odio nullam. Ac proin sodales placerat; non rhoncus ac mollis mi. Curabitur nullam etiam eros ac venenatis sociosqu urna."
+        "id": 8,
+        "name": "Chat Room",
+        "technologies": [
+            "Go",
+            "Docker",
+            "AWS",
+            "React",
+            "Tailwind"
+        ],
+        "github": "https://github.com/leoldding/chatAppV2",
+        "link": "https://chat.leoding.com/",
+        "year": 2023,
+        "description": "Engineered real-time messaging between multiple users using a publisher-subscriber mechanism and WebSockets. Created a CI/CD pipeline using GitHub Actions / Workflows and AWS Elastic Beanstalk with a modified CloudFormation stack to automatically update and deploy AWS EC2 instances.",
+        "showProject": true
     },
     {
-        "id": 4,
-        "name": "test project 2",
-        "technologies": ["fake tech"],
-        "github": "https://google.com",
-        "year": 2501,
-        "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Odio velit elementum efficitur odio nullam. Ac proin sodales placerat; non rhoncus ac mollis mi. Curabitur nullam etiam eros ac venenatis sociosqu urna."
-    },
-    {
-        "id": 5,
-        "name": "test project 3",
-        "technologies": ["fake tech"],
-        "github": "https://google.com",
-        "year": 2501,
-        "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Odio velit elementum efficitur odio nullam. Ac proin sodales placerat; non rhoncus ac mollis mi. Curabitur nullam etiam eros ac venenatis sociosqu urna."
+        "id": 7,
+        "name": "Coffee Status",
+        "technologies": [
+            "Go",
+            "PostgreSQL",
+            "Docker",
+            "AWS",
+            "React",
+            "Tailwind",
+            "Nginx"
+        ],
+        "github": "https://github.com/leoldding/coffeeStatusV3",
+        "link": "coffee.leoding.com",
+        "year": 2023,
+        "description": "",
+        "showProject": false
     },
     {
         "id": 6,
-        "name": "test project 4",
-        "technologies": ["fake tech"],
-        "github": "https://google.com",
-        "year": 2501,
-        "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Odio velit elementum efficitur odio nullam. Ac proin sodales placerat; non rhoncus ac mollis mi. Curabitur nullam etiam eros ac venenatis sociosqu urna."
+        "name": "Image Caption Experiment",
+        "technologies": [
+            "Python",
+            "PyTorch"
+        ],
+        "github": "https://github.com/leoldding/image-captioning-CLIP",
+        "link": "",
+        "year": 2023,
+        "description": "",
+        "showProject": false
+    },
+    {
+        "id": 5,
+        "name": "To-Do List",
+        "technologies": [
+            "Go",
+            "PostgreSQL",
+            "Docker",
+            "AWS",
+            "React",
+            "CSS",
+            "Nginx"
+        ],
+        "github": "https://github.com/leoldding/todolistV2",
+        "link": "todo.leoding.com",
+        "year": 2023,
+        "description": "",
+        "showProject": false
+    },
+    {
+        "id": 4,
+        "name": "Media Sentiment Analysis",
+        "technologies": [
+            "Python",
+            "Pandas",
+            "scikit-learn"
+        ],
+        "github": "https://github.com/leoldding/media-sentiment-analysis",
+        "year": 2022,
+        "description": "",
+        "showProject": false
+    },
+    {
+        "id": 3,
+        "name": "Soccer Analytics",
+        "technologies": [
+            "Java",
+            "SQL",
+            "Spark",
+            "Hadoop",
+            "Hive",
+            "Impala"
+        ],
+        "github": "https://github.com/leoldding/soccer-analytics",
+        "link": "",
+        "year": 2022,
+        "description": "Examined 250,000 data points associated with the English Premier League, Spanish La Liga, and Italian Serie A. Automated the data analysis process using shell scripting. Trained Logistic Regression models for classifying winners and losers to identify contributing factors to winning, achieving noteworthy model performance with an average AUC-ROC score of 0.81.",
+        "showProject": true
+    },
+    {
+        "id": 2,
+        "name": "Spam Classifier",
+        "technologies": [
+            "Python",
+            "scikit-learn"
+        ],
+        "github": "https://github.com/leoldding/spam-classifier",
+        "link": "",
+        "year": 2022,
+        "description": "",
+        "showProject": false
+    },
+    {
+        "id": 1,
+        "name": "Movie Ratings Analysis",
+        "technologies": [
+            "Python",
+            "Pandas",
+            "scikit-learn"
+        ],
+        "github": "https://github.com/leoldding/movie-ratings-analysis",
+        "link": "",
+        "year": 2022,
+        "description": "",
+        "showProject": false
     }
 ]

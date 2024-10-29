@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": 3,
         "name": "Certified Kubernetes Administrator",
         "short": "CKA",
         "company": "Linux Foundation",
@@ -15,7 +15,7 @@
         "link": "https://www.credly.com/badges/f5106664-7044-499d-8528-4fa3320487cf/public_url"
     },
     {
-        "id": 3,
+        "id": 1,
         "name": "Certified Cloud Practitioner",
         "short": "CCP",
         "company": "Amazon Web Services",

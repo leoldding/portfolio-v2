@@ -1,15 +1,20 @@
 import React from "react";
-import experience from "../data/experience.json";
+import data from "../data/experience.json";
 import "../styles/experience.css";
+import "../styles/tech.css";
 
 const Experience: React.FC = () => {
+    const experiences = data.filter(experience => {
+        return experience.showExperience;
+    })
+
     return (
         <section id="experience">
             <h1>
                 Experience
             </h1>
             <div className="experiences">
-                {experience && experience.map(({ id, position, company, start, end, description }) => (
+                {experiences && experiences.map(({ id, position, company, start, end, technologies, description }) => (
                     <div className="experience" key={id}>
                         <div className="experience-shadow" />
                         <div className="experience-info" >
@@ -31,6 +36,11 @@ const Experience: React.FC = () => {
                             <p>
                                 {description}
                             </p>
+                            <div className="tags">
+                                {technologies && technologies.map(tech => (
+                                    <span className="tech" key={tech}>{tech} </span>
+                                ))}
+                            </div>
                         </div>
                     </div>
                 ))}

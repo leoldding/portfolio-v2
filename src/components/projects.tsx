@@ -2,10 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import data from "../data/projects.json";
 import "../styles/projects.css";
+import "../styles/tech.css";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects: React.FC = () => {
-    const projects = data.slice(0, 4);
+    const projects = data.filter(project => {
+        return project.showProject;
+    })
 
     return (
         <section id="projects">
@@ -33,9 +36,9 @@ const Projects: React.FC = () => {
                             <p>
                                 {description}
                             </p>
-                            <div className="project-tags">
+                            <div className="tags">
                                 {technologies && technologies.map(tech => (
-                                    <span className="project-tech" key={tech}>{tech} </span>
+                                    <span className="tech" key={tech}>{tech}</span>
                                 ))}
                             </div>
                         </div>

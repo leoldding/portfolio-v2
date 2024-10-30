@@ -33,9 +33,9 @@ const Hero: React.FC = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="#experience">
+                        <a href="#projects">
                             <div className="bar" />
-                            Experience
+                            Projects
                         </a>
                     </li>
                     <li>
@@ -45,9 +45,9 @@ const Hero: React.FC = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="#projects">
+                        <a href="#experience">
                             <div className="bar" />
-                            Projects
+                            Experience
                         </a>
                     </li>
                 </ul>

@@ -1,9 +1,23 @@
+#hero>*:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
 .hero-nav {
     display: none;
 }
 
 .job-title {
     font-weight: 700;
+}
+
+.socials>a:not(:last-child) {
+    margin-right: 0.75rem;
+}
+
+.socials svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    vertical-align: bottom;
 }
 
 @media (min-width: 1024px) {

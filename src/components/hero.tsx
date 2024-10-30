@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/hero.css";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Hero: React.FC = () => {
     const handleScrollToTop = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -56,6 +58,10 @@ const Hero: React.FC = () => {
                     </li>
                 </ul>
             </nav>
+            <div className="socials">
+                <Link to="https://github.com/leoldding/" target="_blank" rel="noopener noreferrer"><FaGithub /></Link>
+                <Link to="https://linkedin.com/in/leo-ding/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></Link>
+            </div>
         </section>
     );
 };

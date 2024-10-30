@@ -15,9 +15,9 @@ const Main: React.FC = () => {
                 </div>
                 <div className="right-container">
                     <About />
-                    <Experience />
-                    <Certifications />
                     <Projects />
+                    <Certifications />
+                    <Experience />
                 </div>
             </div>
             <footer>

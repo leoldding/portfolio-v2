@@ -14,6 +14,7 @@ const About: React.FC = () => {
             <p>
                 When I'm not coding, I'm hitting the gym, watching motorsports, solving <Link id="cube-cursor" to="https://www.worldcubeassociation.org/persons/2019DING10" target="_blank" rel="noopener noreferrer">Rubik's Cubes</Link>, or cleaning up (virtual) <Link id="mine-cursor" to="https://minesweeper.online/player/10436085" target="_blank" rel="noopener noreferrer">minefields</Link>.
             </p>
+            <Link to="/Leo Ding - Resume.pdf" target="_blank">View Résumé</Link>
         </section>
     );
 };

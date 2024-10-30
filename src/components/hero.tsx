@@ -50,12 +50,6 @@ const Hero: React.FC = () => {
                             Projects
                         </a>
                     </li>
-                    <li>
-                        <a href="/Leo Ding - Resume.pdf" target="_blank">
-                            <div className="bar" />
-                            Résumé
-                        </a>
-                    </li>
                 </ul>
             </nav>
             <div className="socials">

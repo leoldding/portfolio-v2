@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import data from "../data/experience.json";
 import "../styles/experience.css";
 import "../styles/tech.css";
@@ -45,7 +44,6 @@ const Experience: React.FC = () => {
                         </div>
                     </div>
                 ))}
-                <Link to="/Leo Ding - Resume.pdf" target="_blank">View Résumé</Link>
             </div>
         </section>
     );

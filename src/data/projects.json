@@ -56,7 +56,7 @@
             "Nginx"
         ],
         "github": "https://github.com/leoldding/coffeeStatusV3",
-        "link": "coffee.leoding.com",
+        "link": "https://coffee.leoding.com",
         "year": 2023,
         "description": "",
         "showProject": false
@@ -87,7 +87,7 @@
             "Nginx"
         ],
         "github": "https://github.com/leoldding/todolistV2",
-        "link": "todo.leoding.com",
+        "link": "https://todo.leoding.com",
         "year": 2023,
         "description": "",
         "showProject": false

@@ -1,0 +1,16 @@
+# Allow all search engines
+User-agent: *
+
+# Block unnecessary files and folders
+Disallow: /node_modules/
+Disallow: /package.json
+Disallow: /vite.config.js
+Disallow: /tsconfig.json
+Disallow: /api/
+
+# Disallow build directories or staging artifacts
+Disallow: /dist/
+
+# Block query string variations if applicable
+Disallow: /*?*
+

@@ -38,7 +38,7 @@
             "Tailwind"
         ],
         "github": "https://github.com/leoldding/chatAppV2",
-        "link": "https://chat.leoding.com/",
+        "link": "",
         "year": 2023,
         "description": "Engineered real-time messaging between multiple users using a publisher-subscriber mechanism and WebSockets. Created a CI/CD pipeline using GitHub Actions / Workflows and AWS Elastic Beanstalk with a modified CloudFormation stack to automatically update and deploy AWS EC2 instances.",
         "showProject": true
@@ -55,7 +55,7 @@
             "Tailwind",
             "Nginx"
         ],
-        "github": "https://github.com/leoldding/coffeeStatusV3",
+        "github": "https://github.com/leoldding/coffee-status-v4",
         "link": "https://coffee.leoding.com",
         "year": 2023,
         "description": "",
@@ -87,7 +87,7 @@
             "Nginx"
         ],
         "github": "https://github.com/leoldding/todolistV2",
-        "link": "https://todo.leoding.com",
+        "link": "",
         "year": 2023,
         "description": "",
         "showProject": false

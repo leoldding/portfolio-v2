@@ -1,5 +1,17 @@
 [
     {
+        "id": 5,
+        "position": "Software Engineer I",
+        "company": "GEICO",
+        "start": "Jan 2025",
+        "end": "Present",
+        "technologies": [
+            "C#"
+        ],
+        "description": "Started working here not too long ago. Will be diligently working and will inform you all of what I've done later.",
+        "showExperience": true
+    },
+    {
         "id": 4,
         "position": "Data Scientist",
         "company": "NASA SPOCS Initiative",

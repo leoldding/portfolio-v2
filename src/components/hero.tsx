@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
                     <a href="#" onClick={handleScrollToTop}>Leo Ding</a>
                 </h1>
                 <p className="job-title">
-                    Software Engineer
+                    Software Engineer @ GEICO
                 </p>
                 <p>
                     I develop seamless interfaces, resilient backends, and optimized cloud infrastructure.

@@ -6,7 +6,10 @@
         "start": "Jan 2025",
         "end": "Present",
         "technologies": [
-            "C#"
+            "C#",
+            "JavaScript",
+            "React",
+            "Bootstrap"
         ],
         "description": "Started working here not too long ago. Will be diligently working and will inform you all of what I've done later.",
         "showExperience": true
